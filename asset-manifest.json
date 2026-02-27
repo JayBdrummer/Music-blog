@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Music-blog/static/css/main.01f877d7.css",
+    "main.js": "/Music-blog/static/js/main.1097a64d.js",
+    "static/media/taustakuva.jpg": "/Music-blog/static/media/taustakuva.ea92c664448cdb9b82a0.jpg",
+    "static/media/YAMAHA-RECORDING-CUSTOM.jpg": "/Music-blog/static/media/YAMAHA-RECORDING-CUSTOM.f22d2e55ad9c98236dce.jpg",
+    "static/media/Rummut_studio.jpg": "/Music-blog/static/media/Rummut_studio.2584c539eccaa1892329.jpg",
+    "static/media/Gentle Savage Official promo picture 2024.jpg": "/Music-blog/static/media/Gentle Savage Official promo picture 2024.46e4324ea59f46888e9f.jpg",
+    "static/media/miunkuva.jpg": "/Music-blog/static/media/miunkuva.09a666d62ad6f0c41683.jpg",
+    "static/media/Ghost_meliora.jpg": "/Music-blog/static/media/Ghost_meliora.ff1793180d54dd656894.jpg",
+    "static/media/Tiger.jpg": "/Music-blog/static/media/Tiger.dba387f47ff28fea39e2.jpg",
+    "static/media/FK_yhteiskuva.jpg": "/Music-blog/static/media/FK_yhteiskuva.16b08c4f40c1a411e928.jpg",
+    "static/media/rummut_live.jpg": "/Music-blog/static/media/rummut_live.35fe4106d419c89b728f.jpg",
+    "static/media/Spoonmen.jpg": "/Music-blog/static/media/Spoonmen.b9042ece3e70fe9e4219.jpg",
+    "static/media/FNM_king.jpg": "/Music-blog/static/media/FNM_king.30c04eb2c09f1486167a.jpg",
+    "index.html": "/Music-blog/index.html",
+    "main.01f877d7.css.map": "/Music-blog/static/css/main.01f877d7.css.map",
+    "main.1097a64d.js.map": "/Music-blog/static/js/main.1097a64d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01f877d7.css",
+    "static/js/main.1097a64d.js"
+  ]
+}
