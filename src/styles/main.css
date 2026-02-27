@@ -1,0 +1,79 @@
+/* ===============================
+   HERO SECTION
+================================ */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+/* Tekstialue */
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-title {
+  margin: 0 0 1rem 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* Kuvan wrapper */
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+/* Itse kuva */
+.hero-image img {
+  width: 100%;
+  max-width: 300px;   /* TÄRKEÄ RAJOITUS */
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* ===============================
+   ARTICLE SECTION
+================================ */
+
+.article-section {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.article-section h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.article-section p {
+  margin-bottom: 1.5rem;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+  }
+
+}

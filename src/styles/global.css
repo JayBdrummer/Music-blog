@@ -1,0 +1,95 @@
+@import "./variables.css";
+
+/* ===============================
+   GLOBAL RESET
+================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ===============================
+   BODY (taustakuva)
+================================ */
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+
+  background-image: url("../assets/images/taustakuva.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* ===============================
+   MAIN-ALUE
+================================ */
+
+.main-content {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  
+}
+
+/* ===============================
+   KESKIALUE (BLOGISISÄLTÖ)
+================================ */
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  background-color: var(--content-bg);
+  color: var(--text-dark);
+
+  padding: 3rem;
+  border-radius: 12px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.page-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+}
+
+.article-section {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.article-section h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* ===============================
+        RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.8rem;
+    border-radius: 8px;
+  }
+
+  .main-content {
+    padding: 2rem 1rem;
+  }
+}

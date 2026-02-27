@@ -1,0 +1,17 @@
+:root {
+  /* Navbar */
+  --navbar-bg: #794545;
+  --navbar-text: #FFFFFF;
+  --navbar-active: #D4C468;
+
+  /* Yleiset */
+  --content-bg: #ffffff;
+  --text-dark: #222222;
+
+  /* Fontit */
+  --font-body: 'Inter', sans-serif;
+
+  /* Footer */
+  --footer-bg: #794545;
+  --footer-text: #FFFFFF;
+}

@@ -1,0 +1,107 @@
+/* ===============================
+   NAVBAR PERUS
+================================ */
+
+.navbar {
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  padding: 1rem 1.5rem;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Sisäinen container */
+.navbar-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===============================
+   LOGO
+================================ */
+
+.logo {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--navbar-text);
+}
+
+/* ===============================
+   NAV LINKS (mobile-first)
+================================ */
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  width: 100%;
+  background-color: var(--navbar-bg);
+  padding: 1.5rem;
+}
+
+/* Kun mobiilivalikko auki */
+.nav-links.active {
+  display: flex;
+}
+
+/* ===============================
+   LINKKIEN TYYLIT (PUUTTUI SINULTA)
+================================ */
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--navbar-text);
+  font-family: var(--font-body);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  opacity: 0.85;
+}
+
+.nav-links a.active {
+  color: var(--navbar-active);
+  font-weight: 600;
+}
+
+/* ===============================
+   HAMBURGER
+================================ */
+
+.hamburger {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--navbar-text);
+  user-select: none;
+}
+
+/* ===============================
+   DESKTOP NÄKYMÄ
+================================ */
+
+@media (min-width: 768px) {
+
+  .nav-links {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 2rem;
+    width: auto;
+    padding: 0;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
